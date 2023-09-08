@@ -1,6 +1,6 @@
 {
   "name": "vuerd-vscode",
-  "version": "0.9.15",
+  "version": "0.9.16",
   "displayName": "ERD Editor",
   "description": "ERD Editor vscode extension",
   "main": "./out/extension.js",
@@ -20,14 +20,13 @@
     "database",
     "diagram"
   ],
-  "homepage": "https://github.com/vuerd/vuerd#readme",
+  "homepage": "https://github.com/dineug/erd-editor#readme",
   "bugs": {
-    "url": "https://github.com/vuerd/vuerd/issues"
+    "url": "https://github.com/dineug/erd-editor/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuerd/vuerd.git",
-    "directory": "packages/vuerd-vscode"
+    "url": "https://github.com/dineug/erd-editor.git"
   },
   "author": "dineug <dineug2@gmail.com>",
   "license": "MIT",
@@ -37,14 +36,15 @@
     "watch": "rollup -c -w"
   },
   "devDependencies": {
-    "@dineug/vscode-google-analytics": "^0.1.2",
     "@types/node": "^16.7.10",
     "@types/vscode": "^1.47.0",
     "@types/xml-parser": "^1.2.30",
     "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
     "fast-xml-parser": "^3.19.0",
     "macaddress": "^0.5.2",
-    "rollup": "^2.56.3"
+    "node-fetch": "^3.3.2",
+    "rollup": "2.56.3"
   },
   "engines": {
     "vscode": "^1.47.0"

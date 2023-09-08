@@ -41,26 +41,12 @@ if (isProd) {
 export default {
   input: 'src/extension.ts',
   output: {
-    file: pkg.main,
+    dir: './out',
     format: 'cjs',
     banner,
   },
   external: [
-    'vscode',
-    'path',
-    'fs',
-    'url',
-    'events',
-    'stream',
-    'util',
-    'http',
-    'https',
-    'tls',
-    'os',
-    'zlib',
-    'dns',
-    'http2',
-    'net',
+    'vscode'
   ],
   plugins: buildPlugins,
 };

@@ -7,6 +7,7 @@ storybook-static
 docker/**/data
 packages/vuerd-vscode/out
 packages/vuerd/out**
+.yarn
 
 # Log files
 npm-debug.log*
